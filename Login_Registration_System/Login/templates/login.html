@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sanket Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container flex">
+  <div class="facebook-page flex">
+    <div class="text">
+      <h1>Sanket Blog</h1>
+      <p>Connect with friends and the world </p>
+      <h3 style="color: blue;">LOGIN TO PAGE</h3>
+
+    </div>
+    <form action="/login_validation" method="post">
+      <input type="email" placeholder="Email or phone number" name='id' required>
+      <input type="password" placeholder="Password" name='password' required>
+      <div class="link">
+        <button type="submit" class="login">Login</button>
+        <a href="#" class="forgot">Forgot password?</a>
+      </div>
+      <hr>
+      <div class="button">
+        <a href="/register">Create new account</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+
+  
+</body>
+</html>
