@@ -1,0 +1,11 @@
+1]Create venv Env and setup Flask
+2]create app.py and debug=True
+3]Write function for Login and Registration
+4]Customiza login and Registration HTML file with name and endpoints.
+5]Open XAMPP control panel and start APPACHE and MYSQL server
+6]go to localhost phpmyadmin and create database and table.
+7]open terminal and install Mysql.connector
+8]import mysql.connector
+9]connect mysql with py file mentioned host,user,password,databsename
+10]Fetch the data from html file with request
+11]execute qurie and pass value to the qurie
